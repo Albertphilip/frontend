@@ -1,0 +1,41 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+ }
+
+.button {
+    background-color: #4923f1;
+    border: none;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+.button:hover {
+    background-color: #3100e4;
+ }
+ .button-cancel{
+    background-color: #fdfcff;
+    border: none;
+    color: rgb(3, 3, 3);
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 5px 0 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #dee2e6 ;
+
+ }
+ /* .button-cancel:hover {
+    background-color: #3e8e41;
+ } */
